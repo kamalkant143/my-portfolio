@@ -63,6 +63,8 @@ p {
   transform: translateX(0);
 }
 
+
+
 .main-left {
   width: 35rem;
   height: 100vh;
@@ -73,6 +75,7 @@ p {
   padding: 10rem 0;
   background-color: var(--pure-white);
   position: fixed;
+  justify-content: space-around;
   top: 0;
   left: 0;
   overflow:auto;
@@ -215,21 +218,26 @@ p {
 }
 /* ================================hero section styling==================================== */
 
-.toggle-btn{
-  width: 5rem;
-  height: 4.8rem;
-  border: .4rem solid var(--main-color);
+.toggle-btn,.toggle-btn-1{
+  width: 4.5rem;
+  height: 4.3rem;
+  border: .4rem solid var(--head-color);
   border-radius: 5px;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 4rem;
+  font-size: 3.5rem;
   position: absolute;
-  color: var(--main-color);
-  top: 2rem;
-  right: 2rem;
+  color: var(--head-color);
+  top: .7rem;
+  right: .7rem;
   z-index: 5000;
   display: none;
+}
+.toggle-btn-1{
+  right: initial;
+  left: .7rem;
 }
 
 .main-right {
@@ -258,6 +266,7 @@ p {
 #home-section {
   display: flex;
   flex-wrap: wrap-reverse;
+  justify-content: space-between;
 }
 
 .main-right section.active-page {
@@ -265,7 +274,7 @@ p {
 }
 
 .hero-left {
-  flex-basis: 60%;
+  flex-basis: 50%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -515,6 +524,7 @@ p {
 }
 
 .same-h2 {
+  text-align: center;
   font-size: 3rem;
   font-weight: 600;
   color: var(--main-color);
@@ -774,7 +784,8 @@ margin-bottom: 5rem;
 .project-box {
   border: 1rem solid var(--main-color);
   background-image: url("../images/project-img-1.jpg");
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
   border-radius: 1rem;
   height: 25rem;
   background-color: var(--pure-white);
