@@ -341,4 +341,7 @@
     font-size: 25%;
   }
 }
+.media-section a{
+  margin: 1rem;
+}
 }
