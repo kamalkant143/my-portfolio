@@ -59,11 +59,9 @@ p {
 }
 
 /* ====================== aside bar styling =========================== */
-.main-left.kuchbe{
+.main-left.kuchbe {
   transform: translateX(0);
 }
-
-
 
 .main-left {
   width: 35rem;
@@ -78,10 +76,9 @@ p {
   justify-content: space-around;
   top: 0;
   left: 0;
-  overflow:auto;
-  transition: all .5s linear;
+  overflow: auto;
+  transition: all 0.5s linear;
   z-index: 100;
-  
 }
 
 .main-left .logo {
@@ -167,7 +164,6 @@ p {
   }
 }
 
-
 .color-changer {
   border: 1px solid var(--light-bg);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -218,10 +214,11 @@ p {
 }
 /* ================================hero section styling==================================== */
 
-.toggle-btn,.toggle-btn-1{
+.toggle-btn,
+.toggle-btn-1 {
   width: 4.5rem;
   height: 4.3rem;
-  border: .4rem solid var(--head-color);
+  border: 0.4rem solid var(--head-color);
   border-radius: 5px;
 
   display: flex;
@@ -230,14 +227,14 @@ p {
   font-size: 3.5rem;
   position: absolute;
   color: var(--head-color);
-  top: .7rem;
-  right: .7rem;
+  top: 0.7rem;
+  right: 0.7rem;
   z-index: 5000;
   display: none;
 }
-.toggle-btn-1{
+.toggle-btn-1 {
   right: initial;
-  left: .7rem;
+  left: 0.7rem;
 }
 
 .main-right {
@@ -461,7 +458,7 @@ p {
 .education-section::before {
   content: "";
   position: absolute;
-  width: .2rem;
+  width: 0.2rem;
   height: calc(100% - 6rem);
   left: 3rem;
   top: 5rem;
@@ -471,7 +468,7 @@ p {
   content: "";
   position: absolute;
   left: -3.65rem;
-  top:.6rem;
+  top: 0.6rem;
   height: 1.5rem;
   width: 1.5rem;
   border-radius: 50%;
@@ -549,7 +546,7 @@ p {
   flex-basis: 22%;
   cursor: pointer;
   text-align: center;
-margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 .question-section .contact-address .icon-section span {
@@ -595,13 +592,14 @@ margin-bottom: 5rem;
   width: 49%;
   text-transform: capitalize;
   font-family: var(--font-family-1);
-  font-size:1.6rem ;
+  font-size: 1.6rem;
   font-weight: 500;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   /* background-color: var(--pure-white); */
 }
 
-.any-question .message-box .same-inpute:first-child{
+.any-question .message-box .same-inpute:first-child {
   margin-right: 1.6%;
 }
 .any-question .message-box .same-inpute:focus {
@@ -617,10 +615,11 @@ margin-bottom: 5rem;
   width: 100%;
   text-transform: capitalize;
   font-family: var(--font-family-1);
-  font-size:1.6rem ;
+  font-size: 1.6rem;
   font-weight: 500;
 
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .any-question .message-box .subject:focus {
@@ -633,13 +632,14 @@ margin-bottom: 5rem;
   width: 100%;
   padding: 1rem 1rem;
   border-radius: 8px;
-  margin-block: 1.6% ;
+  margin-block: 1.6%;
   border: none;
   text-transform: capitalize;
-  font-size:1.6rem ;
+  font-size: 1.6rem;
   font-weight: 500;
   font-family: var(--font-family-1);
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .any-question .message-box textarea:focus {
@@ -669,8 +669,8 @@ margin-bottom: 5rem;
   border-color: var(--head-color);
 }
 
-.contact-section-btn{
-  cursor: pointer;  
+.contact-section-btn {
+  cursor: pointer;
 }
 /* ============= skill section styling================= */
 
@@ -715,7 +715,7 @@ margin-bottom: 5rem;
   width: 100%;
   left: 0;
   bottom: 1.5rem;
-  height: .2rem;
+  height: 0.2rem;
   background-color: var(--main-color);
 }
 

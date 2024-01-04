@@ -87,6 +87,7 @@
   .main-left {
     gap: 2rem;
   }
+
   .hero-right,
   .hero-left {
     flex-basis: 100%;
@@ -189,7 +190,8 @@
   .main-right {
     left: 0;
   }
-  .toggle-btn,.toggle-btn-1 {
+  .toggle-btn,
+  .toggle-btn-1 {
     display: flex;
   }
 }
@@ -218,13 +220,12 @@
 }
 
 @media screen and (max-width: 500px) {
-
   .main-left {
     width: 100%;
   }
-   .hero-right{
+  .hero-right {
     margin-top: 2rem;
-   }
+  }
   .hero-right .bg-image {
     width: 100%;
     height: 100%;
@@ -233,115 +234,111 @@
     width: 100%;
   }
 
-
   .education-section .education-div1 {
     margin: 0;
     position: relative;
     padding-left: 3rem;
     margin-block: 5rem;
-}
+  }
+
   .education-section::before {
-   
     left: 1rem;
     top: 5rem;
   }
   .education-section .education-div1::after {
- 
     left: 0.35rem;
-    top:0;
+    top: 0;
     height: 1.5rem;
-   
-}
-
-@media screen and (max-width: 500px) and (max-height:899px){
-  html{
-    font-size: 63%;
   }
 
-  .project-comman,
-  .skill-comman {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1rem;
-  }
-  .toggle-btn,.toggle-btn-1{
-    width: 3.8rem;
-    height: 3.6rem;
-    border: .3rem solid var(--head-color);
+  @media screen and (max-width: 500px) and (max-height: 899px) {
+    html {
+      font-size: 63%;
+    }
 
-    font-size: 3rem;
- 
-  }
-  
-}
+    .project-comman,
+    .skill-comman {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 1rem;
+    }
+    .toggle-btn,
+    .toggle-btn-1 {
+      width: 3.8rem;
+      height: 3.6rem;
+      border: 0.3rem solid var(--head-color);
 
-@media screen and (max-width: 500px) and (min-height:900px){
-  .hero-left h1{
-    font-size: 4.7rem;
-    line-height: 6rem;
+      font-size: 3rem;
+    }
   }
-  .main-right section{
-    padding-top: 6rem;
-  }
-  
-  .toggle-btn,.toggle-btn-1{
-    width: 3.8rem;
-    height: 3.6rem;
-    border: .3rem solid var(--head-color);
 
-    font-size: 3rem;
- 
-  }
-  
-.hero-left .hero-btns .hero-btn1{
-  margin-bottom: 1rem;
-}
-  
-.media-section a{
-  margin-bottom: 1rem;
-}
+  @media screen and (max-width: 500px) and (min-height: 900px) {
+    .hero-left h1 {
+      font-size: 4.7rem;
+      line-height: 6rem;
+    }
+    .main-right section {
+      padding-top: 6rem;
+    }
 
-.project-box{
-  height: 22rem;
-}
+    .toggle-btn,
+    .toggle-btn-1 {
+      width: 3.8rem;
+      height: 3.6rem;
+      border: 0.3rem solid var(--head-color);
 
-.color-changer{
-  padding: 0.5rem;
-}
-}
-@media screen and (max-width: 375px) and (min-height:900px){
-  html{
-    font-size: 78%;
-  }
-}
+      font-size: 3rem;
+    }
 
-@media screen and (max-width: 280px) {
-  html{
-    font-size: 62%;
-  }
-}
+    .hero-left .hero-btns .hero-btn1 {
+      margin-bottom: 1rem;
+    }
 
-@media screen and (max-width: 280px) and (max-height:700px){
-  html{
-    font-size: 50%;
-  }
-}
+    .media-section a {
+      margin-bottom: 1rem;
+    }
 
-@media screen and (max-width: 200px) {
-  html{
-    font-size: 40%;
-  }
-  *{
-    word-wrap: break-word;
-    word-break: break-all;
-  }
-}
+    .project-box {
+      height: 22rem;
+    }
 
-@media screen and (max-width: 175px) {
-  html{
-    font-size: 25%;
+    .color-changer {
+      padding: 0.5rem;
+    }
   }
-}
-.media-section a{
-  margin: 1rem;
-}
+  @media screen and (max-width: 375px) and (min-height: 900px) {
+    html {
+      font-size: 78%;
+    }
+  }
+
+  @media screen and (max-width: 280px) {
+    html {
+      font-size: 62%;
+    }
+  }
+
+  @media screen and (max-width: 280px) and (max-height: 700px) {
+    html {
+      font-size: 50%;
+    }
+  }
+
+  @media screen and (max-width: 200px) {
+    html {
+      font-size: 40%;
+    }
+    * {
+      word-wrap: break-word;
+      word-break: break-all;
+    }
+  }
+
+  @media screen and (max-width: 175px) {
+    html {
+      font-size: 25%;
+    }
+  }
+  .media-section a {
+    margin: 1rem;
+  }
 }

@@ -6,6 +6,7 @@ const toggleBtn=document.querySelector(".toggle-btn")
 const mainLeft=document.querySelector(".main-left")
 const toggleBtnOne=document.querySelector(".toggle-btn-1")
 
+
 const hireMe = document.querySelector(".hero-btn1");
 hireMe.onclick = changePage;
  function changePage(e){
@@ -28,8 +29,10 @@ navLinks.forEach((navLink) => {
     changePage(e);
   });
 });
-let value = 0;
 
+// =================== dark mode btn script ================
+
+let value = 0;
 darkBtn.addEventListener("click", function () {
   let btn = document.querySelector("html");
 
@@ -44,6 +47,8 @@ darkBtn.addEventListener("click", function () {
   }
 });
 
+// =================== color theme script ================
+
 changerTheam.forEach((theamColors) => {
   theamColors.addEventListener("click", function (e) {
     let myElement2 = window
@@ -54,9 +59,9 @@ changerTheam.forEach((theamColors) => {
   });
 });
 
+
+// =================== toggleBtn script ================
 toggleBtn.onclick=function (){
-  
-// mainLeft.style.transform="translateX(0)";
 if(mainLeft.classList.contains("kuchbe")){
   mainLeft.classList.remove("kuchbe")
   toggleBtn.firstElementChild.setAttribute("name","menu")
@@ -66,18 +71,9 @@ else{
   mainLeft.classList.add("kuchbe")
   toggleBtn.firstElementChild.setAttribute("name","close")
 }
-
 };
 
 toggleBtnOne.onclick=function(){
-   
-  // if(mainLeft.classList.contains("kuchbe")){
     mainLeft.classList.remove("kuchbe")
     toggleBtn.firstElementChild.setAttribute("name","menu")
-  
-  // }
-  // else{
-    // mainLeft.classList.add("kuchbe")
-    // toggleBtn.firstElementChild.setAttribute("name","close")
-  // }
 }
