@@ -794,6 +794,11 @@ p {
   overflow: hidden;
   cursor: pointer;
 }
+.project-box.project{
+  background-image: url("../images/Screenshot\ \(2\).png");
+
+}
+
 .project-box::after {
   content: "";
   position: absolute;
