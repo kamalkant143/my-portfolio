@@ -799,6 +799,11 @@ p {
 
 }
 
+.project-box.project1{
+  background-image: url("../images/Screenshot\ \(3\).png");
+}
+
+
 .project-box::after {
   content: "";
   position: absolute;
@@ -815,7 +820,7 @@ p {
 }
 
 .project-box::before {
-  content: "Portfolio-website";
+  content: "";
   position: absolute;
   transition: all 0.5s linear;
   left: 0;
@@ -848,6 +853,14 @@ p {
   font-family: var(--font-family-2);
   font-weight: 600;
   opacity: 1;
+}
+
+.project-box.project:hover::before{
+  content: "Ecomerice-Bazzar";
+}
+
+.project-box.project1:hover::before{
+  content: "Honey-Website";
 }
 
 .project-box:hover::after {
