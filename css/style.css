@@ -803,6 +803,10 @@ p {
   background-image: url("../images/Screenshot\ \(3\).png");
 }
 
+.project-box.project2{
+  
+}
+
 
 .project-box::after {
   content: "";
