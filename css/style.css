@@ -807,6 +807,11 @@ p {
   background-image: url("../images/Screenshot\ \(5\).png");
 }
 
+.project-box.project3{
+  background-image: url("../images/Screenshot\ \(9\).png");
+}
+
+
 
 .project-box::after {
   content: "";
