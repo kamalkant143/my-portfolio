@@ -871,6 +871,10 @@ p {
   content: "Food-Website";
 }
 
+.project-box.project3:hover::before{
+  content: "Grill-Master";
+}
+
 .project-box:hover::after {
   content: "";
   position: absolute;
