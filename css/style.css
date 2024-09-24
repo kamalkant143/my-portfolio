@@ -795,20 +795,24 @@ p {
   cursor: pointer;
 }
 .project-box.project{
-  background-image: url("../images/Screenshot\ \(2\).png");
+  background-image: url("../images/bazzar.com.png");
 
 }
 
 .project-box.project1{
-  background-image: url("../images/Screenshot\ \(3\).png");
+  background-image: url("../images/food-baazar.png");
 }
 
 .project-box.project2{
-  background-image: url("../images/Screenshot\ \(5\).png");
+  background-image: url("../images/honey.png");
 }
 
 .project-box.project3{
-  background-image: url("../images/Screenshot\ \(9\).png");
+  background-image: url("../images/restrudant.png");
+}
+
+.project-box.project4{
+  background-image: url("../images/gym-fit.png");
 }
 
 
@@ -878,6 +882,10 @@ p {
 
 .project-box.project3:hover::before{
   content: "Grill-Master";
+}
+
+.project-box.project4:hover::before{
+  content: "GYM-FIT";
 }
 
 .project-box:hover::after {
