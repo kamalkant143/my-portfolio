@@ -425,7 +425,7 @@ p {
   font-size: 1.8rem;
   font-weight: 500;
   color: var(--head-color);
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   line-height: 4rem;
 }
 
