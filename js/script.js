@@ -77,3 +77,6 @@ toggleBtnOne.onclick=function(){
     mainLeft.classList.remove("kuchbe")
     toggleBtn.firstElementChild.setAttribute("name","menu")
 }
+
+
+
