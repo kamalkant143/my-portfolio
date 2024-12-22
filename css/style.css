@@ -795,32 +795,29 @@ p {
   overflow: hidden;
   cursor: pointer;
 }
-.project-box.project{
+.project-box.project {
   background-image: url("../images/bazzar.com.png");
-
 }
 
-.project-box.project1{
+.project-box.project1 {
   background-image: url("../images/honey.png");
 }
 
-.project-box.project2{
+.project-box.project2 {
   background-image: url("../images/food-baazar.png");
 }
 
-.project-box.project3{
+.project-box.project3 {
   background-image: url("../images/restrudant.png");
 }
 
-.project-box.project4{
+.project-box.project4 {
   background-image: url("../images/gym-fit.png");
 }
 
-.project-box.project5{
+.project-box.project5 {
   background-image: url("../images/health-care.png");
 }
-
-
 
 .project-box::after {
   content: "";
@@ -873,27 +870,27 @@ p {
   opacity: 1;
 }
 
-.project-box.project:hover::before{
+.project-box.project:hover::before {
   content: "Ecomerice-Bazzar";
 }
 
-.project-box.project1:hover::before{
+.project-box.project1:hover::before {
   content: "Honey-Website";
 }
 
-.project-box.project2:hover::before{
+.project-box.project2:hover::before {
   content: "Food-Website";
 }
 
-.project-box.project3:hover::before{
+.project-box.project3:hover::before {
   content: "Grill-Master";
 }
 
-.project-box.project4:hover::before{
+.project-box.project4:hover::before {
   content: "GYM-FIT";
 }
 
-.project-box.project5:hover::before{
+.project-box.project5:hover::before {
   content: "Health-Care";
 }
 
